@@ -122,8 +122,8 @@ def play(board)
     turn(board)
     counter += 1
   end
-  winner(board)
-  puts "Congratulations X!"
+  winner(board).
+  if puts "Congratulations X!"
   puts "Congratulations O!"
   puts "Cat's Game!"
 end
