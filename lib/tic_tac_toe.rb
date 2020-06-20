@@ -122,7 +122,7 @@ def play(board)
     turn(board)
     counter += 1
   end
-  winner(board) = winner
+  winner = winner(board)
   if winner == "X"
     puts "Congratulations X!"
   elsif winner == "O" 
