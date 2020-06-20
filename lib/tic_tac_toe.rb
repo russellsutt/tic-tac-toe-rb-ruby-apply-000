@@ -123,9 +123,9 @@ def play(board)
     counter += 1
   end
   winner(board) = winner
-  if winner = "X"
+  if winner == "X"
     puts "Congratulations X!"
-  elsif winner = "O" 
+  elsif winner == "O" 
     puts "Congratulations O!"
   else
     puts "Cat's Game!"
