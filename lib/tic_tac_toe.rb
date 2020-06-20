@@ -125,7 +125,7 @@ def play(board)
   winner(board)
   puts "Congratulations X!"
   puts "Congratulations O!"
-  puts ""
+  puts "Cat's Game!"
 end
 
 
