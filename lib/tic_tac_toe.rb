@@ -122,9 +122,12 @@ def play(board)
     turn(board)
     counter += 1
   end
-  winner(board).detect 
-  if puts "Congratulations X!"
-  puts "Congratulations O!"
+  winner(board) = winner
+  if winner = "X"
+    puts "Congratulations X!"
+  elsif winner = "O" 
+    puts "Congratulations O!"
+  else
   puts "Cat's Game!"
 end
 
