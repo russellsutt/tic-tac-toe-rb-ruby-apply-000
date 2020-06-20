@@ -123,4 +123,10 @@ def play(board)
     counter += 1
   end
   winner(board)
+  puts "Congratulations X!"
+  puts "Congratulations O!"
+  puts ""
 end
+
+
+
